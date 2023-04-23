@@ -4,13 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .navbar-logo {
     color: #fff;
     justify-self: start;
     margin-left: 20px;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -28,4 +29,29 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* list-style-type: none; */
+}
+
+.nav-links:hover {
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
 }

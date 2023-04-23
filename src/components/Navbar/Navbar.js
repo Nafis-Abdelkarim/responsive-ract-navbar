@@ -16,7 +16,6 @@ class Navbar extends Component {
                 <div className="menu-icon" onClick={this.handelClick}>
                     <i className={this.state.clicked ? 'fa fa-times':'fas fa-bars'}></i>
                 </div>
-                <ul>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}></ul>
                     {
                         MenuItem.map((item, index) => {
@@ -29,7 +28,6 @@ class Navbar extends Component {
                         )
                         })
                     }
-                </ul>
             </nav>
         )
     }
